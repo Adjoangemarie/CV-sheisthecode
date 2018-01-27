@@ -1,0 +1,79 @@
+.btn-com{
+   margin-top: 180px;
+}
+
+a:hover{
+   background-color:white;
+   border-radius: 3px;
+   height: 3px;
+
+}
+.menu-cv:hover{
+   background-color: blue;
+   border-radius: 1px;
+    align-items: center;
+
+}
+
+nav>ul>li{
+   float: right;
+   position: relative;
+   align-items: center;
+}
+nav li{
+   display: inline-block;
+}
+.submenu{
+   display: none;
+}
+nav{
+   width: 100%;
+   background-color:#4876FF ;
+   
+}
+nav>ul::after{
+     content: "";
+     display: block;
+     clear: both;
+}
+nav a{
+   display: inline-block;
+   text-decoration: none;
+}
+nav>ul>li>a{
+   padding: 20px 30px;
+   color: #3D3D3D ;
+   margin-top: 20px;
+}
+
+.about{
+   margin-top: 120px;
+}
+.photo-logo{
+   border-radius: 80px;
+}
+.res{
+   margin-top: 70px;
+}
+.btn-acc{
+   margin-top: 70px;
+}
+#form-acceuil{
+   background-color: white ;
+}
+.indic{
+   margin-top: 30px;
+   margin-left: 1000px;
+}
+.well{
+   margin-top: 30px;
+}
+.com{
+   margin-left: 20px;
+}
+body{
+   background-color: #FFFACD;
+}
+h3{
+    margin-top: 20px;
+}

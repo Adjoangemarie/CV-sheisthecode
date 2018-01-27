@@ -1,0 +1,33 @@
+nav>ul>li{
+	float: right;
+	position: relative;
+	align-items: center;
+}
+nav li{
+	display: inline-block;
+}
+.submenu{
+	display: none;
+}
+nav{
+	width: 100%;
+	background-color: #FFC0CB  ;
+	
+}
+nav>ul::after{
+     content: "";
+     display: block;
+     clear: both;
+}
+nav a{
+	display: inline-block;
+	text-decoration: none;
+}
+nav>ul>li>a{
+	padding: 20px 30px;
+	color: #3D3D3D ;
+	margin-top: 20px;
+}
+h3{
+	margin-top:20px;
+}
